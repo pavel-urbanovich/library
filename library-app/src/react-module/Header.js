@@ -31,7 +31,7 @@ function Header() {
 
 
   return (
-    <header className="App-header">
+    <header className="Header">
       <div className='Container'>
         <div className='Header-container'>
           <div className='Header-name'>
@@ -42,7 +42,7 @@ function Header() {
               {menuArr}
             </ul>
           </nav>
-
+          <div className = "Icon-profile"></div>
         </div>
       </div>
     </header>

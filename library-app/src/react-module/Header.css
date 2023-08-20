@@ -3,3 +3,40 @@
     width: calc(100% - 40px);
     max-width: 1440px;
   }
+.Header {
+  background-color: #0C0C0E;
+}
+
+.Header-name {
+  color: #fff;
+  flex-grow: 2;
+}
+
+.Header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.Menu {
+  display: flex;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 40px;
+  gap: 30px;
+}
+
+.Icon-profile {
+  background-image: url(../../public/assets/svg/icon_profile.svg);
+  height: 28px;
+  width: 28px;
+}
+
+.Header-name {
+  font-family: 'Forum', cursive;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: 0.5px;
+}
+
