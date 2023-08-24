@@ -1,0 +1,23 @@
+.Title-container {
+  max-width: 600px;
+  padding-top: 220px;
+
+}
+
+.Title {
+  margin: 0px;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 50px;
+  background-color: #0C0C0E;
+  padding: 35px 40px 35px 40px;
+}
+
+.Welcome-section {
+  background-image: url(../../public/assets/img/Welcome.jpg);
+  height: 600px;
+}
